@@ -3,7 +3,7 @@
 CC="clang++"
 OUTPUT="emulator"
 TEMP="pkg-config --cflags --lib re2 fmt"
-FLAGS="-std=c++20 -g -Wall -Wextra -Werror -pedantic -fsanitize=undefined -Wodr -o $OUTPUT"
+FLAGS="-std=c++20 -g -Wall -Wextra  -pedantic -fsanitize=undefined -Wodr -o $OUTPUT"
 SOURCES="main.cpp"
 
 usage() {
